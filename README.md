@@ -1,5 +1,9 @@
 # GoGetWell.ai Multi-Theme System
 
+GoGetWell.ai Hero Section
+
+![Image](https://github.com/user-attachments/assets/48310058-ffda-432f-ac7a-8f1a87af1f53)
+
 A comprehensive healthcare platform that adapts its interface based on different medical specialties, providing a contextually relevant experience for users seeking medical treatments.
 
 ## 🌟 Features
@@ -29,6 +33,17 @@ A comprehensive healthcare platform that adapts its interface based on different
   - Mobile-first approach
   - Adaptive layouts
   - Optimized for all screen sizes
+
+## 📸 Screenshots
+
+### Themes
+![Image](https://github.com/user-attachments/assets/952fc070-05c9-4372-bea5-ec5829a03ec7)
+
+### How it Works
+![Image](https://github.com/user-attachments/assets/41cff76d-37c3-4de8-b466-117b95e4b7df)
+
+### Treatments
+![Image](https://github.com/user-attachments/assets/9d039cf5-5b21-4b1d-aa97-045863e7c6d1)
 
 ## 🚀 Getting Started
 
@@ -146,13 +161,6 @@ The platform is fully responsive with breakpoints:
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Team
-
-- Project Lead: [Name]
-- UI/UX Designer: [Name]
-- Frontend Developer: [Name]
-- Backend Developer: [Name]
 
 ## 📞 Support
 
