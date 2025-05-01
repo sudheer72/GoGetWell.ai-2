@@ -1,0 +1,75 @@
+/* Base theme variables (will be overridden by theme-specific variables) */
+:root {
+  --primary: #5932EA;
+  --secondary: #8F73FF;
+  --accent: #3E97FF;
+  --gradient-start: #36249C;
+  --gradient-end: #5932EA;
+  --text-primary: #191D23;
+  --text-secondary: #6E7079;
+  --bg-color: #FFFFFF;
+  --card-bg: #FFFFFF;
+  --border-color: #EAEAEA;
+}
+
+/* Default theme (purple) */
+.theme-default {
+  --primary: #5932EA;
+  --secondary: #8F73FF;
+  --accent: #3E97FF;
+  --gradient-start: #36249C;
+  --gradient-end: #5932EA;
+}
+
+/* Organ Transplant theme (blue) */
+.theme-organTransplant {
+  --primary: #1976D2;
+  --secondary: #2196F3;
+  --accent: #0D47A1;
+  --gradient-start: #0D47A1;
+  --gradient-end: #1976D2;
+}
+
+/* Cardiology theme (red) */
+.theme-cardiology {
+  --primary: #D32F2F;
+  --secondary: #F44336;
+  --accent: #B71C1C;
+  --gradient-start: #B71C1C;
+  --gradient-end: #D32F2F;
+}
+
+/* Common styles for all themes */
+.hero-gradient {
+  background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+  color: white;
+}
+
+.button-primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.button-secondary {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.accent-border {
+  border-color: var(--accent);
+}
+
+.specialty-card {
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.specialty-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.specialty-icon {
+  color: var(--primary);
+}
